@@ -330,7 +330,7 @@ h3.my-profission{
 
 
     /*                 bloqueio              */
-    display: none !important; 
+    /*display: none !important;*/ 
 }
 .about .about-content .personal-info .info-item p span{
     font-weight: 400;
