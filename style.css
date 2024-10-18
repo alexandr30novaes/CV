@@ -33,7 +33,7 @@ ul{
     opacity: 1;
 }
 .hidden{
-    display: none !important;
+    
 }
 .main-content{
     padding-left: 270px;
@@ -228,6 +228,20 @@ ul{
 .aside .nav li a i{
     margin-right: 15px; /* Espaçamento dos icons para esquerda */
 }
+.aside .nav li a:hover{ /* Hover */
+    color: var(--skin-color2);
+}
+
+
+.aside .menu{ /* Menu */
+    position: absolute;
+    top: -4px;
+    right: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--skin-color2);
+}
+
 
 /* Home Page */
 
@@ -237,7 +251,7 @@ ul{
     color: var(--text-black-900);
 }
 .home .home-img{
-    flex: 0 0 40%;
+    flex: 0 0 100%;
     max-width: 40%;
     text-align: center;
     position: relative;
@@ -277,7 +291,7 @@ h3.my-profission{
     width: 80px;
     border-bottom: 10px solid var(--skin-color1) ;
     border-right: 10px solid var(--skin-color1) ;
-    right: -10px;
+    right: 10px;
     bottom: -40px;
 }
 .home-img::before{/* Lista em volta da IMG */
@@ -287,7 +301,7 @@ h3.my-profission{
     width: 80px;
     border-top: 10px solid var(--skin-color1) ;
     border-left: 10px solid var(--skin-color1) ;
-    left: -9px;
+    left: 10px;
     bottom: 40px;
     top: -40px;
 }
@@ -326,8 +340,6 @@ h3.my-profission{
     font-size: 16px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
-
-
 
     /*                 bloqueio              */
     /*display: none !important;*/ 
